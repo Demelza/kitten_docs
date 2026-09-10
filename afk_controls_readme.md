@@ -9,10 +9,6 @@ The AFK controls are the part that lets your clients interact with you. Currentl
   This button will let your clients move you to any furniture you have configured in the notecard inside the tip jar. Since it communicates with the tip jar, it will also only open if the avatar has tipped you first.  
   While it is possible to remove the mover script (kitten.mover) from the AFK controls object without breaking the menu, please note that it is not advised, as your clients will not be able to move you and won't be able to sit in furniture unless they have tipped you first. If you still wish to remove it, please make a backup first.
 
-* Face Controls  
-  This button will open the face controls menu, which lets your clients change your face expressions. It had options for blush, eyes, mouth, expression presets, and, if configured in the notecard (SettingsM4), your own custom expressions presets. It is currently only compatible with Utilizator M4 heads, and I am looking into making it compatible with more heads.  
-  If you wish to entirely remove this functionality, you may remove the Face Controls script (kitten.facecontrols) and its notecard (SettingsM4) from the AFK controls object. This button will also entirely disappear from the main menu.
-
 * Cum  
   Clicking this button will communicate with your cum system and open its menu. While I wish I could do this, I cannot make it so that it works only if you have been tipped first: people would be able to cum on you regardless, as that's what those systems are designed for.  
   If you don't want others to be able to play with your cum menu, there are a couple solutions: either make your cum system an accessory in your Undresser folders (that way other avatars will only be able to make you wear it if they tip you to access the undresser first; please see the Undresser section below), or detach it entirely. It is currently only compatible with the Spunked cum system.  
@@ -78,7 +74,6 @@ If you are wearing a compatible cum system (currently, only the Spunked cum syst
 Some of the functionality can be removed if you don't need it. Here is everything that can be removed from the AFK controls object:
 * kitten.undresser script: will remove the Undress button from the main menu and the Undresser won't be available to use anymore
 * kitten.mover script: will remove the Move button from the main menu and the Mover won't be available to use anymore. I REALLY do NOT recommend removing this
-* kitten.facecontrols script and SettingsM4 notecard: will remove the Face Controls button and functionality from the main menu entirely. I recommend removing those if you are not using a supported head
 * kitten.accessories script: will remove the Accessories functionality from the Undresser entirely
 * kitten.avatars script: will remove the Avatars functionality from the Undresser entirely
 * kitten.outfits script: will remove the Outfits and Undress functionality from the Undresser entirely
