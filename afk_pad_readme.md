@@ -13,4 +13,5 @@ The AFK pad contains a few scripts to enhance its functionality, as follows:
 
 * Redresser script (kitten.redress): this script will read your current outfit and redress you with it when you are returned to the AFK pad, in case your clients don't redress you after playing. This script CAN be removed without breaking core functionality. Simply remove the kitten.redress script.
 
-It is also possible to use your own AFK pad/home furniture instead of the provided one. In this case, the kitten.facereset, kitten.cleaner and kitten.redress scripts may be copied to the new home furniture without breaking their functionality.
+It is also possible to use your own AFK pad/home furniture instead of the provided one. In this case, the kitten.facereset, kitten.cleaner and kitten.redress scripts may be copied to the new home furniture without breaking their functionality.  
+It is also possible to replace the built-in animation in the AFK Pad. To do so, remove the existing animation from the furniture and replace it by your own, making sure you renamed it with the same name as the one that came with the furniture.
