@@ -4,7 +4,7 @@ It will also communicate with the Furniture script that you have added inside fu
 
 Effectively, nobody can move you, sit on furniture, or use your Undresser unless they tip you first and their time hasn't expired.
 
-It contains 2 items: its script (kitten.tipjar) and its configuration notecard (TipJarConfig).
+It contains 3 items: its script (kitten.tipjar) and its configuration notecard (TipJarConfig), and a copy of the AFK Controls that AFK avatars can grab with the "Get Controls" button in the tip jar menu and equip.
 
 It is configurable via its notecard, with the following options:
 
