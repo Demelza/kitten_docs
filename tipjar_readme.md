@@ -55,3 +55,10 @@ Valid values: image UUID. For example: PICTURE=00000000-0000-0000-0000-000000000
 ## FURNITURE=(object UUID)
 The UUIDs of all the furniture you want the Mover to recognize, one per line. To get your furniture UUID, rez them and right click them, then click Edit. In the first tab of this menu, there's a "Copy Keys" button. Click it and paste it as a value for this setting. Repeat for every piece of furniture you want to use with the mover. Please note that every piece of furniture also needs to have the Furniture script inside, otherwise the tip jar and mover will not recognize them or allow moving to them.  
 Valid values: any furniture UUID. For example: FURNITURE=00000000-0000-0000-0000-000000000000
+
+## How to use the tip jar
+When someone clicks the tip jar, they are presented with a menu with a "Login" button. Clicking this will log them in to the tip jar.  
+When they click the tip jar after logging in, they will be presented with 3 different buttons:  
+* Log out: this will log them out of the tip jar
+* End Session: this will end the current paid session. It is useful if the paying avatar disconnects or leave and there's still time on the tip jar. Clicking this button will end their timer and the next client can start a new session immediately
+* Get Controls: this will give the logged in avatar a copy of the AFK Controls object, making them able to wear it so clients can use it to undress or move them
