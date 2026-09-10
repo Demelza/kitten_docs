@@ -60,7 +60,8 @@ Please note that in order for the furniture to be listed in here, it must fill B
 * The furniture contains the furniture script bundled with the Kitten AFK system
 
 ## Face Controls
-The Face Controls lets other people control your face expressions while they're playing with you, giving them a better, more real experience. The current version of the face controls only supports the Utilizator M4 heads, but there are plans to extend it to more types of heads. It has the following options:
+The Face Controls lets other people control your face expressions while they're playing with you, giving them a better, more real experience. The current version of the face controls only supports the Utilizator M4 heads, but there are plans to extend it to more types of heads. The Face Controls button is unlocked by a different product that was released in my store earlier. You will need to add the bundled script (kitten.facecontrols) and its notecard (SettingsM4) into the AFK Controls object. To get it, please check the marketplace listing: https://marketplace.secondlife.com/p/Midoris-Stuff-M4-Universal-Face-Expression-Clicker/28627062  
+It has the following options:
 * Blush: lets you set the blush level. Some heads support 2 levels while others support 3. Setting your hear properly in the SettingsFace notecard will allow the menu to adjust to this setting properly
 * Eyes: supports 4 levels of eye openness for every head: Open, Half Closed, Almost Closed, and Closed
 * Mouth: supports 3 levels for every head: Closed, Open, Tongue Out. The Closed option can be configured in the SettingsFace notecard
